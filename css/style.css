@@ -1,0 +1,146 @@
+
+/*             
+           Master Stylesheet
+=====================================
+     Template Name : Minimo 
+     Author:Nusrat Zarin Khan 
+     Author Url:https://nusratzarin.com
+     Descriptions:PSD TO HTML Practise
+     Version:1.0.0
+     Tag:Blog
+
+*/
+
+
+/*
+           Table of Contents
+====================================
+    1.Typrography 
+    2.Heading
+    3.
+    4.
+    5.
+    6.
+    7.
+
+font-family: 'Playfair Display', serif;
+font-family: 'Inconsolata', monospace;
+
+*/
+
+/*======================================
+               Typrography
+========================================*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display:400,400i,900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #626262;
+}
+h1,
+h1,
+h3,
+h4,
+h5,
+h6{
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+p{
+	margin: 0;
+
+}/*======================================
+               Typrography
+========================================*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+.logo{
+	width: 10%;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	
+}
+.menu ul{
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #626262;
+      padding: 0 60px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color:#000000;
+	transition: .3s all ease-in-out;
+}
+.banner{
+	background-image: url(../images/banner.jpg);
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.maintain{
+	width: 90%;
+	height: 130px;
+	margin: 100px auto;
+	
+}
+.subtitle{
+     width: 50px;
+	margin-bottom:  32px;
+	color: #c7c1b6;
+}
+.abc{
+	margin: 0 auto;
+}
+.title{
+	margin-top:32px;
+	margin-bottom: 40px;
+	width: 400px;
+	color: #6c6c6c;
+}
+.bcd{
+	margin: 0 auto;
+}
+.paragraph{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	width: 1100px;
+	height:150px; 
+	color: #312d25;
+	
+}
+.end{
+    width: 250px;
+    height:10px;
+    color:#b4ad9e;
+}
